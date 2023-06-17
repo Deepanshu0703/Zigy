@@ -1,0 +1,50 @@
+/* Page2.css */
+.page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .selected-items-container {
+    margin-top: 20px;
+  }
+  
+  .selected-items-list {
+    padding: 0;
+  }
+  
+  .selected-item {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .selected-item .remove-item-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected-item .remove-item-btn:hover {
+    background-color: #b02a37;
+  }
+
+   .go-to-page1-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+  
